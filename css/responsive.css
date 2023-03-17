@@ -107,13 +107,14 @@
     body{
         overflow-x: hidden;
     }
+
     header ul{
         position: absolute;
-        top: 0;
-        left: -100%;
-        width: 80%;
-        height: 100%;
-        background-color: #000;
+        top: -260px;
+        left: 0;
+        width: 100%;
+        height: 260px;
+        background-color: rgba(0, 0, 0, 0.9);
         z-index: 1000;
         flex-direction: column;
         justify-content: center;
@@ -122,12 +123,11 @@
         -moz-transition: all 0.4s ease-in-out;
         -ms-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
-        visibility: hidden;
-    }
+}
     
     header ul.active{
-        left: 0;
-        visibility: visible;
+        display: flex;
+        top: 0;
     }
 
     header ul li{
