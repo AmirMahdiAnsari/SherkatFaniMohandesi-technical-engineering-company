@@ -1,3 +1,21 @@
+@media screen and (max-width: 1920px){
+    #article .article-overlay{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    #article .article-overlay{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    #article .article-overlay{
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1200px){
     .container{
         padding: 0 30px;
